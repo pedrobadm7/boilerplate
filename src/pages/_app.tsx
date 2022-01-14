@@ -7,8 +7,10 @@ const App = ({ Component, pageProps }: AppProps) => {
     <>
       <Head>
         <title>Boilerplate</title>
-        <link rel="icon" href="/vercel.svg" />
-        <link rel="apple-touch-icon" href="/vercel.svg" />
+        <link rel="icon" href="/logo.svg" />
+        <link rel="apple-touch-icon" href="/logo.svg" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#06092B" />
         <meta
           name="description"
           content="A boilerplate to starter to work with Typescript, React, NextJS and Styled-Components"
